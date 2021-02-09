@@ -1,4 +1,10 @@
-﻿#include "Stdafx.h"
+/*
+	Developed by .Rui
+	Version 0.0.1
+	Last revision: --/--/--
+*/
+
+#include "Stdafx.h"
 #include "PythonPlayerSettingsModule.h"
 #include "PythonNetworkStream.h"
 #include "PythonPlayer.h"
