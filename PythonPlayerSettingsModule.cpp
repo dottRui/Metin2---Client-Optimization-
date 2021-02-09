@@ -33,9 +33,9 @@ void CPythonPlayerSettingsModule::Load()
 	__LoadGameInit();
 	__LoadEmoticons();
 	__LoadRaceHeight();
-	#ifdef ENABLE_GUILD_LEADER_GRADE_NAME
+#ifdef ENABLE_GUILD_LEADER_GRADE_NAME
 	__RegistLeaderGradeName();
-	#endif
+#endif
 #ifdef ENABLE_LOAD_PROPERTY
 	CPythonBackground::Instance().CreateProperty();
 #endif
